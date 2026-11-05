@@ -1,0 +1,4 @@
+interface:
+  display_name: "Qlib Reference"
+  short_description: "Find version-aware Qlib APIs and practices"
+  default_prompt: "Use $qlib-reference to find and verify the Qlib API or best practice relevant to this task."

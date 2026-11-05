@@ -1,0 +1,20 @@
+{
+  "name": "qlib-toolkit",
+  "interface": {
+    "displayName": "Qlib Toolkit"
+  },
+  "plugins": [
+    {
+      "name": "qlib-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Qlib Init Project"
+  short_description: "Initialize reusable Qlib research workspaces"
+  default_prompt: "Use $qlib-init-project to plan a safe Qlib research workspace on H20 without modifying shared data."

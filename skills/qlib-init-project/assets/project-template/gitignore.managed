@@ -1,0 +1,4 @@
+artifacts/
+config/machines/local.toml
+.qlib-init/staging/
+.qlib-init/journal/

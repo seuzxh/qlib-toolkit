@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "qlib-toolkit",
+  "version": "0.1.0",
+  "description": "Initialize safe Qlib research projects and look up version-aware Qlib APIs and best practices.",
+  "author": {
+    "name": "seuzxh"
+  },
+  "license": "MIT",
+  "keywords": [
+    "qlib",
+    "quantitative-research",
+    "project-initialization",
+    "reference"
+  ]
+}

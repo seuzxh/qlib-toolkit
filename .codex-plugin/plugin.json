@@ -1,0 +1,24 @@
+{
+  "name": "qlib-toolkit",
+  "version": "0.1.0",
+  "description": "Initialize safe Qlib research projects and look up version-aware Qlib APIs and best practices.",
+  "author": {
+    "name": "seuzxh"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Qlib Toolkit",
+    "shortDescription": "Initialize Qlib projects and verify Qlib usage",
+    "longDescription": "Two focused Qlib skills: a safe project initializer and a version-aware API and best-practice reference.",
+    "developerName": "seuzxh",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Qlib Reference to verify this Qlib API against the installed version.",
+      "Use Qlib Init Project to plan a safe Qlib research workspace without modifying shared data."
+    ]
+  }
+}
