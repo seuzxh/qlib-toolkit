@@ -39,6 +39,12 @@ $qlib-reference 查找滚动训练的官方示例，并按本机版本核验。
 $qlib-init-project 为新的因子研究目录生成初始化计划，不要修改共享数据。
 ```
 
+When the bundled Qlib references do not answer a question or do not match the
+installed version, `qlib-reference` verifies the behavior against the matching
+revision of the official `microsoft/qlib` source, tests, documentation, or
+examples. It distinguishes confirmed behavior from inference and stops short
+of implementing anything that still depends on an unverified assumption.
+
 `qlib-init-project` requires review of an exact plan hash before Linux apply.
 Its built-in H20/Linux defaults derive from the current home directory. Set
 `QLIB_IFIND_PYTHON`, `QLIB_IFIND_DAY_DATA`, `QLIB_IFIND_MINUTE_DATA`, or
@@ -58,7 +64,7 @@ before publishing.
 ## Provenance and license
 
 The reference skill preserves all nine resources from
-`seuzxh/qlib-skill` commit `d458a334efdd8ac970ad70e8c81beb452b7e2473`,
+`seuzxh/qlib-skill` commit `2bde3f2ec1b96d0f84639c17dbc5da769ada6cdc`,
 renamed from `qlib` to `qlib-reference`. The initializer is the separately
 developed `qlib-init-project` skill. The combined package is distributed
 under the MIT License in [LICENSE](LICENSE).
